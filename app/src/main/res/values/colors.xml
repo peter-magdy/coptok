@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#e71f4d</color>
+    <color name="colorPrimaryDark">#be133b</color>
+    <color name="colorAccent">#00c16e</color>
+    <color name="colorAccentDark">#00a04c</color>
+
+    <color name="colorBadgeUnseen">@color/colorPrimary</color>
+    <color name="colorBadgeVerified">@color/colorAccent</color>
+    <color name="colorBadgeProfile">@color/colorPrimary</color>
+
+    <color name="colorButtonFacebook">#3b5998</color>
+    <color name="colorButtonGoogle">#ea4335</color>
+    <color name="colorButtonSms">#fbbc05</color>
+    <color name="colorButtonEmail">#008eaa</color>
+
+    <color name="colorIntro1Background">@color/colorPrimary</color>
+    <color name="colorIntro1Buttons">@color/colorPrimaryDark</color>
+    <color name="colorIntro2Background">@color/colorPrimary</color>
+    <color name="colorIntro2Buttons">@color/colorPrimaryDark</color>
+
+    <color name="colorLanguageIcon">#33000000</color>
+    <color name="colorLanguageText">@android:color/white</color>
+
+    <color name="colorLike">#e71f4d</color>
+
+    <color name="colorNavigationBar">#111</color>
+    <color name="colorNavigationActive">@android:color/white</color>
+    <color name="colorNavigationInactive">#ccc</color>
+    <color name="colorNavigationMain">@color/colorPrimary</color>
+    <color name="colorNavigationMainPressed">@color/colorPrimaryDark</color>
+
+    <color name="colorPlayerProgressTrack">#55ffffff</color>
+    <color name="colorPlayerProgressFill">@android:color/white</color>
+
+    <color name="colorPromotionBackground">#55000000</color>
+    <color name="colorPromotionText">@android:color/white</color>
+
+    <color name="colorRedemptionPending">#caccd1</color>
+    <color name="colorRedemptionApproved">#0abf53</color>
+    <color name="colorRedemptionRejected">#ff0000</color>
+
+    <color name="colorSpeedBackground">#99ffffff</color>
+
+    <color name="colorLiveStreamOutline">@color/colorPrimary</color>
+    <color name="colorLiveStreamBadgeBg">@color/colorLiveStreamOutline</color>
+    <color name="colorLiveStreamBadgeText">@android:color/white</color>
+    <color name="colorLiveStreamSelfOutline">@color/colorAccent</color>
+    <color name="colorLiveStreamSelfBadgeBg">@color/colorLiveStreamSelfOutline</color>
+    <color name="colorLiveStreamSelfBadgeText">@android:color/black</color>
+    <color name="colorLiveStreamUsername">@android:color/white</color>
+    <color name="colorLiveStreamViewersBg">#33000000</color>
+    <color name="colorLiveStreamViewersText">@android:color/white</color>
+</resources>

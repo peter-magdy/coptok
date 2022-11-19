@@ -1,0 +1,139 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'androidx.navigation.safeargs'
+apply plugin: 'com.google.firebase.crashlytics'
+
+// Uncomment below line to enable Sentry
+// apply plugin: 'io.sentry.android.gradle'
+
+android {
+    buildToolsVersion '31.0.0'
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId 'com.ctg.coptok'
+        minSdkVersion 21
+        multiDexEnabled true
+        targetSdkVersion 31
+        vectorDrawables.useSupportLibrary = true
+        versionCode 19
+        versionName '3.0'
+
+    }
+    packagingOptions {
+        exclude 'META-INF/library_release.kotlin_module'
+    }
+    //... removed for brevity
+    bundle {
+
+        language {
+            enableSplit = false
+        }
+    }
+}
+
+
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.concurrent:concurrent-futures:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.paging:paging-runtime:3.1.1'
+    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'androidx.room:room-runtime:2.4.3'
+    implementation 'androidx.work:work-runtime:2.7.1'
+    implementation 'commons-io:commons-io:2.8.0'
+    implementation 'com.adcolony:sdk:4.6.4'
+    implementation 'com.android.billingclient:billing:4.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.arthenica:mobile-ffmpeg-full-gpl:3.1'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+    implementation 'com.danikula:videocache:2.7.1'
+    implementation 'com.facebook.android:audience-network-sdk:6.2.0'
+    implementation 'com.facebook.android:facebook-android-sdk:5.15.3'
+    implementation 'com.facebook.fresco:fresco:2.6.0'
+    implementation 'com.facebook.fresco:imagepipeline-okhttp3:2.6.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.github.agorabuilder:rtm-sdk:1.4.8'
+    implementation 'com.github.bumptech.glide:annotations:4.11.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.11.0"
+    implementation 'com.github.boybeak:GifMaker:master-SNAPSHOT'
+    implementation 'com.github.Captaincoder1111:Segmented-Progress-Bar:1.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    implementation 'com.github.daniel-stoneuk:material-about-library:3.1.2'
+    implementation 'com.github.MasayukiSuda:GPUVideo-android:v0.1.2'
+    implementation 'com.github.MasayukiSuda:Mp4Composer-android:v0.4.0'
+    implementation 'com.github.shchurov:particleview:0.9.12'
+    implementation 'com.github.SumiMakito:AwesomeQRCode:1.2.0'
+    implementation 'com.github.vaibhavpandeyvpz:android-transcoder:0.9.1-android11-SNAPSHOT'
+    implementation 'com.github.vaibhavpandeyvpz:katora-java:1.0.0'
+    implementation 'com.google.android.exoplayer:exoplayer'
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    implementation 'com.google.android.libraries.places:places:2.5.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-invites:17.0.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.22'
+    implementation 'com.hbb20:ccp:2.4.0'
+    implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
+    implementation 'com.jakewharton.rxbinding4:rxbinding:4.0.0'
+    implementation 'com.jakewharton.rxbinding4:rxbinding-viewpager2:4.0.0'
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+    implementation('com.mopub:mopub-sdk:5.14.0@aar') {
+        transitive = true
+    }
+    implementation 'com.munon:turboimageview:1.2.0'
+    implementation 'com.otaliastudios:autocomplete:1.1.0'
+    implementation 'com.otaliastudios:cameraview:2.7.1'
+    implementation 'com.otaliastudios.opengl:egloo:0.6.1'
+    implementation 'com.pixplicity.easyprefs:library:1.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.9.0'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.thefinestartist:finestwebview:1.2.7'
+    implementation 'com.vanniktech:emoji-google:0.7.0'
+    implementation 'com.vanniktech:emoji-facebook:0.7.0'
+    implementation 'com.vanniktech:emoji-ios:0.7.0'
+    implementation 'com.vanniktech:emoji-twitter:0.7.0'
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation 'io.agora.rtc:full-sdk:3.7.2'
+    implementation 'io.sentry:sentry-android:3.1.0'
+    implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
+    implementation 'jp.wasabeef:recyclerview-animators:4.0.1'
+    implementation 'me.everything:overscroll-decor-android:1.1.0'
+    implementation 'net.the4thdimension:audio-wife:1.0.3'
+    implementation 'net.ypresto.qtfaststartjava:qtfaststart:0.1.0'
+    implementation 'org.apache.commons:commons-lang3:3.11'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    annotationProcessor 'androidx.room:room-compiler:2.4.3'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:31.0.2')
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+}

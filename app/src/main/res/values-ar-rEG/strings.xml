@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_label">من نحن</string>
+    <string name="add_button">اضافة</string>
+    <string name="adjust_audio_label">ضبط الصوت</string>
+    <string name="app_name">كوب توك</string>
+    <string name="apply_button">حفظ</string>
+    <string name="audio_from_clip">صوت مخصص من مقطع.</string>
+    <string name="bio_label">السيرة الذاتية</string>
+    <string name="browse_file_title">اختر الملف</string>
+    <string name="browse_label">اختر</string>
+    <string name="cancel_button">إلغاء</string>
+    <string name="chat_label">محادثة</string>
+    <string name="clips_label">مقاطع</string>
+    <string name="close_button">اغلاق</string>
+    <string name="comments_label">تعليقات</string>
+    <string name="comments_switch">تفعيل التعليقات علي الفيديو ؟</string>
+    <string name="composer_hint">اكتب شيئًا هنا...</string>
+    <string name="confirmation_block_user">هل تريد منع هذا المستخدم؟ لن يتمكن أي منكم من إرسال الرسائل.</string>
+    <string name="confirmation_close_app">هل تريد إغلاق التطبيق؟</string>
+    <string name="confirmation_close_recording">سيتم تجاهل التسجيلات الحالية الخاصة بك. هل أنت متأكد؟</string>
+    <string name="confirmation_delete_clip">هل تريد حذف هذا الفيديو؟ هذا لا يمكن التراجع عنها.</string>
+    <string name="confirmation_delete_comment">هل تريد حذف هذا التعليق؟ هذا لا يمكن التراجع عنها.</string>
+    <string name="confirmation_delete_draft">هل تريد حذف مسودة الفيديو نهائيًا؟ لا يمكن التراجع.</string>
+    <string name="confirmation_delete_message">هل تريد حذف هذه الرسالة؟ هذا لا يمكن التراجع عنها.</string>
+    <string name="confirmation_disable_account">
+سيؤدي هذا إلى تعطيل حسابك بشكل دائم ولن تتمكن من تسجيل الدخول مرة أخرى.
+هل تريد الاستمرار؟
+هذا لا يمكن التراجع عنها.
+    </string>
+    <string name="confirmation_unblock_user">هل تريد إلغاء حظر هذا المستخدم؟ ستتمكن كلاكما من إرسال رسائل إلى بعضكما البعض مرة أخرى.</string>
+    <string name="content_language_spinner">لغة المحتوى</string>
+    <string name="conversations_label">المحادثات</string>
+    <string name="count_clips" formatted="false">%s فيديو</string>
+    <string name="delay_label">تأخير</string>
+    <string name="deleted_user">مستخدم محذوف</string>
+    <string name="delete_button">حذف</string>
+    <string name="details_button">تفاصيل</string>
+    <string name="disable_account_label">تعطيل الحساب</string>
+    <string name="disable_button">تعطيل</string>
+    <string name="discover_label">اكتشف</string>
+    <string name="done_button">تم</string>
+    <string name="draft_label">مسودة</string>
+    <string name="edit_label">تعديل</string>
+    <string name="email_label">الايميل</string>
+    <string name="empty_articles">لا توجد مقالات إخبارية للعرض.</string>
+    <string name="empty_clips">لم يتم العثور على مقاطع لعرضها.</string>
+    <string name="empty_comments">لا توجد تعليقات لعرضها.</string>
+    <string name="empty_conversations">لم يتم العثور على محادثات لعرضها.</string>
+    <string name="empty_followers">لم يتم العثور على متابعين لعرضهم.</string>
+    <string name="empty_followings">لم يتم العثور على المتابعين للعرض.</string>
+    <string name="empty_hashtags">لم يتم العثور على هاش تاج للعرض.</string>
+    <string name="empty_messages">لم يتم العثور على رسالة للعرض.</string>
+    <string name="empty_notifications">لم يتم العثور على إشعارات للعرض.</string>
+    <string name="empty_songs">لم يتم العثور على موسيقي لعرضها.</string>
+    <string name="empty_stickers">لم يتم العثور على ملصقات للعرض.</string>
+    <string name="empty_users">لم يتم العثور على مستخدمين لعرضهم.</string>
+    <string name="error_ad_load_failed">تعذر تحميل إعلان لعرضه.</string>
+    <string name="error_choose_file">الرجاء اختيار ملف.</string>
+    <string name="error_field_required">هذه الخانة مطلوبه.</string>
+    <string name="error_internet">الرجاء التحقق من اتصال الانترنت الخاص بك.</string>
+    <string name="error_invalid_otp">الرمز الذي أدخلته غير صحيح.</string>
+    <string name="error_invalid_phone">رقم الهاتف الذي تم إدخاله غير صالح.</string>
+    <string name="error_server">أرجع الخادم استجابة غير متوقعة.</string>
+    <string name="error_thread_failed">فشل تحميل معلومات الموضوع.</string>
+    <string name="exit_toast_message">اضغط على رجوع مرة أخرى للخروج من التطبيق.</string>
+    <string name="facebook_label">فيس بوك</string>
+    <string name="faq_label">F.A.Q.</string>
+    <string name="filter_button">فلتر</string>
+    <string name="filters_label">فلتر</string>
+    <string name="flash_button">فلاش</string>
+    <string name="flip_button">عكس</string>
+    <string name="follow_label">متابع</string>
+    <string name="followers_label">متابعين</string>
+    <string name="following_label">فيديوهات المتابعون</string>
+    <string name="for_you_label">جميع الفيديوهات</string>
+    <string name="generate_label">إنشاء</string>
+    <string name="google_label">جوجل</string>
+    <string name="hashtags_label">هاش تاج</string>
+    <string name="instagram_label">انستجرام</string>
+    <string name="language_label">اللغات المفضلة</string>
+    <string name="legal_label">قانوني</string>
+    <string name="likes_label">الإعجابات</string>
+    <string name="linkedin_label">لينكدان</string>
+    <string name="loading_label">تحميل…</string>
+    <string name="locale_label">اللغة</string>
+    <string name="location_label">الموقع</string>
+    <string name="login_description">يرجى تسجيل الدخول بالضعط فوق أي من الخدمات أدناه لمتابعة استخدام التطبيق.</string>
+    <string name="login_email_description">Please enter your email address below &amp; click on Generate button to receive an OTP.</string>
+    <string name="login_label">تسجيل دخول</string>
+    <string name="login_otp_description">Please enter your mobile number below &amp; click on Generate button to receive an OTP.</string>
+    <string name="login_otp_sent">تم إرسال OTP إلى رقم هاتفك المحمول. يرجى الانتظار لبعض الوقت حتى وصوله.</string>
+    <string name="login_otp_sent_email">تم إرسال OTP إلى بريدك الإلكتروني. إذا لم تتمكن من العثور عليه في صندوق الوارد الخاص بك قريبًا ، فيرجى التحقق من مجلد البريد العشوائي / غير الهام أيضًا.</string>
+    <string name="login_required_message">تحتاج إلى تسجيل الدخول للوصول إلى هذا.</string>
+    <string name="login_success">لقد قمت بتسجيل الدخول بنجاح.</string>
+    <string name="logout_label">تسجيل خروج</string>
+    <string name="message_accept_policies">للمتابعة ، يرجى قراءة وقبول سياساتنا القانونية.</string>
+    <string name="message_account_disabled">حسابك قد تم تعطيله بشكل دائم.</string>
+    <string name="message_blocked">لقد منعك المستخدم من إرسال الرسائل.</string>
+    <string name="message_blocking" formatted="false">لقد منعت هذا المستخدم من إرسال الرسائل. %s</string>
+    <string name="message_blocking_both" formatted="false">كلاكما منعت بعضكما البعض من المراسلة. %s</string>
+    <string name="message_clip_downloaded">تم حفظ مقطع الفيديو في المعرض بنجاح.</string>
+    <string name="message_clip_updated">تم تحديث معلومات الفيديو بنجاح.</string>
+    <string name="message_downloading_async">يمكنك الاستمتاع بمشاهدة مقاطع الفيديو أثناء تنزيلها في الخلفية.</string>
+    <string name="message_label">رسالة</string>
+    <string name="message_qr_description">يمكن لأصدقائك مسح هذا الرمز ضوئيًا في تطبيقهم لعرض ملف التعريف الخاص بك والمقاطع التي تم تحميلها.</string>
+    <string name="message_qr_invalid">هذا المحتوى لا يدعمه تطبيقنا.</string>
+    <string name="message_sharing_async">يمكنك الاستمتاع بمشاهدة مقاطع الفيديو أثناء تنزيل الفيديو للمشاركة.</string>
+    <string name="message_song_change">لا يمكنك تغيير الموسيقي بعد بدء التسجيل.</string>
+    <string name="message_song_select">لا يمكنك تحديد الموسيقي بعد بدء التسجيل.</string>
+    <string name="message_trim_too_long" formatted="false">Please select no more that %d seconds to cut.</string>
+    <string name="message_trim_too_short" formatted="false">Please select at least %d seconds to cut.</string>
+    <string name="message_uploading">
+يوجد تحميل معلق بالفعل.
+يرجى الانتظار حتى ينتهي قبل تحميل أخرى.
+    </string>
+    <string name="mmss">00:00</string>
+    <string name="name_label">الاسم</string>
+    <string name="news_label">الاخبار</string>
+    <string name="notification_channel_name">الافتراضي</string>
+    <string name="notification_clip_approved">تمت الموافقة على الفيديو الذي تم تحميله الآن.</string>
+    <string name="notification_commented_on_your_clip" formatted="false">\@%s علق على الفيديو.</string>
+    <string name="notification_download_description">لا ينبغي أن تستغرق أكثر من بضع ثوان.</string>
+    <string name="notification_download_title">تحميل الملف…</string>
+    <string name="notification_else">محتوى الإخطار هذا غير مدعوم ، حتى الآن.</string>
+    <string name="notification_liked_your_clip" formatted="false">\@%s اعجب بالفيديو.</string>
+    <string name="notification_mentioned_you_in_comment" formatted="false">\@%s علق على الفيديو.</string>
+    <string name="notification_posted_new_clip" formatted="false">\@%s نشر مقطع فيديو جديد.</string>
+    <string name="notification_preview_description">سيستغرق هذا بضع لحظات فقط.</string>
+    <string name="notification_preview_title">جارٍ التحضير للتحميل ...</string>
+    <string name="notification_saved_description">تم حفظ مقطع الفيديو بنجاح.</string>
+    <string name="notification_saved_title">تم الحفظ في المعرض.</string>
+    <string name="notification_started_following_you" formatted="false">\@%s بدأ في متابعتك.</string>
+    <string name="notification_tagged_you_in_clip" formatted="false">\@%s منشن لك في الفيديو.</string>
+    <string name="notification_upload_description">قبل لحظات قليلة من بدء البث على الهواء.</string>
+    <string name="notification_upload_title">جارٍ تحميل الفيديو ...</string>
+    <string name="notification_upload_failed_description">تم حفظ الفيديو في المسودات.</string>
+    <string name="notification_upload_failed_title">فشل التحميل.</string>
+    <string name="notification_watermark_description">سيستغرق هذا بعض الوقت ، وسنخطرك عند الانتهاء.</string>
+    <string name="notification_watermark_title">تحسين الفيديو ...</string>
+    <string name="notifications_label">الاشعارات</string>
+    <string name="original_audio">الصوت الأصلي.</string>
+    <string name="otp_label">رسالة نصية</string>
+    <string name="otp_label_field">OTP</string>
+    <string name="pan_audio_hint">يمكنك استخدام هذا الخيار لمزامنة الصوت والفيديو عن طريق ضبط الصوت لبدء التشغيل قبل ذلك بقليل أو لاحقًا.</string>
+    <string name="pan_audio_label">مزامنة الصوت</string>
+    <string name="permission_rationale_download">لتنزيل الفيديو وحفظه في المعرض ، يلزم إذن التخزين.</string>
+    <string name="permission_rationale_scan">لمسح رمز الاستجابة السريعة ضوئيًا ، يلزم إذن الكاميرا.</string>
+    <string name="permission_rationale_upload">لاختيار وتحميل الفيديو من المعرض ، إذن التخزين مطلوب.</string>
+    <string name="phone_label">رقم الهاتف</string>
+    <string name="preview_label">عرض</string>
+    <string name="privacy_policy">سياسة خاصة</string>
+    <string name="privacy_switch">جعل هذا الفيديو خاص؟</string>
+    <string name="privacy_terms_description" formatted="true">
+       بتسجيل الدخول واستخدام تطبيقنا ، فإنك توافق على قراءة %s و %s.
+    </string>
+    <string name="profile_label">الصفحة الشخصية</string>
+    <string name="progress_title">برجاء الانتظار ...</string>
+    <string name="published_label">نشرت</string>
+    <string name="qr_label">رمز الاستجابة السريعة</string>
+    <string name="reason_label">السبب</string>
+    <string name="record_button">تسجيل</string>
+    <string name="recorder_error_in_progress">للقيام بذلك ، يرجى إيقاف التسجيل أولاً.</string>
+    <string name="recorder_error_maxed_out">لقد سجلت بالفعل لأقصى مدة.</string>
+    <string name="recorder_error_no_clips">الرجاء تسجيل الفيديو أولا للمتابعة.</string>
+    <string name="recording_options_title">تسجيل فيديو جديد ...</string>
+    <string name="recording_option_new">تسجيل</string>
+    <string name="recording_option_voice_over">استخدم الموسيقي</string>
+    <string name="reply_label">رد</string>
+    <string name="report_label">ارسال بلاغ</string>
+    <string name="report_submitted">تم تقديم بلاغك ضد محتوى غير لائق بنجاح.</string>
+    <string name="scan_label">مسح ضوئي</string>
+    <string name="search_hint">البحث عن شخص او هاش تاج…</string>
+    <string name="search_song_hint">البحث عن موسيقي او مرنم</string>
+    <string name="search_label">بحث</string>
+    <string name="see_all_label" formatted="false">عرض كل %s فيديو</string>
+    <string name="see_less_label">عرض اقل</string>
+    <string name="see_more_label">عرض اكثر</string>
+    <string name="settings_label">الاعدادات</string>
+    <string name="share_clip_chooser">مشاركة الفيديو على</string>
+    <string name="share_clip_description" formatted="false">استمتع بمشاهدة هذا الفيديو والمزيد ، فقط على %s التطبيق.</string>
+    <string name="share_clip_text" formatted="false">مرحبا ، تحقق من هذا المقطع الرائع الخاص بنا والمزيد ، قم بتنزيل هذا التطبيق https://play.google.com/store/apps/details?id=%s من جوجل بلاي.</string>
+    <string name="share_clip_title" formatted="false">%s\'s فيديو</string>
+    <string name="share_user_chooser">مشاركة ملف التعريف على ...</string>
+    <string name="share_user_description" formatted="false">تحقق من ملف التعريف الخاص بي وأكثر ، فقط في %s التطبيق.</string>
+    <string name="share_user_title" formatted="false">%s\'s الملف الشخصي</string>
+    <string name="share_label">مشاركة</string>
+    <string name="show_label">عرض</string>
+    <string name="slide_1_description">استمتع بالفيديو المثير للاهتمام وأعجب به وعلق عليه.</string>
+    <string name="slide_1_title">مشاهدة</string>
+    <string name="slide_2_description">قم بتحميل مقاطع أصلية وممتعة على منصتنا وكن نجمًا.</string>
+    <string name="slide_2_title">إنشاء</string>
+    <string name="snapchat_label">اسناب شات</string>
+    <string name="song_label">الموسيقي</string>
+    <string name="song_volume_label">ضبط حجم الموسيقي</string>
+    <string name="songs_label">الموسيقي</string>
+    <string name="sound_hint">اضغط لاختيار الموسيقي.</string>
+    <string name="source_label">المصدر</string>
+    <string name="speed_button">السرعة</string>
+    <string name="sticker_label">اختر الملصقات</string>
+    <string name="stickers_button">الملصقات</string>
+    <string name="submit_label">حفظ</string>
+    <string name="suggestions_label">متابعة الاشخاص</string>
+    <string name="support_label">الدعم</string>
+    <string name="term_of_use">تعليمات الاستخدام</string>
+    <string name="tiktok_label">تيك توك</string>
+    <string name="timer_button">الوقت</string>
+    <string name="timer_hint">لإلغاء المؤقت قبل أن يبدأ ، انقر هنا.</string>
+    <string name="timer_label">الوقت</string>
+    <string name="trimmer_label">تقليم أو قطع</string>
+    <string name="twitter_label">تويتر</string>
+    <string name="unblock_label">رفع الحظر</string>
+    <string name="unfollow_label">الغاء المتابعة</string>
+    <string name="upload_button">تحميل</string>
+    <string name="upload_label">تحميل</string>
+    <string name="uploading_message">سيتم تحميل الفيديو الخاص بك قريبا.</string>
+    <string name="username_label">اسم المستخدم</string>
+    <string name="users_label">المستخدمين</string>
+    <string name="verification_file">البطاقة الشخصية</string>
+    <string name="verification_file_none">لم تقم باختيار ملف.</string>
+    <string name="verification_file_selected" formatted="false">وثيقة تعريف (%s) المحدد.</string>
+    <string name="verification_label">التوثيق</string>
+    <string name="verification_note">لطلب ملف التعريف الخاص بك للتحقق ، يرجى تحميل نسخة من بطاقة الهوية الحكومية الخاصة بك بتنسيق jpg / png / pdf.</string>
+    <string name="verification_requested">سيتم مراجعة طلبك قريبًا.</string>
+    <string name="verify_label">التحقق</string>
+    <string name="version_label">الاصدار</string>
+    <string name="video_label">فيديو</string>
+    <string name="video_volume_label">ضبط حجم الفيديو</string>
+    <string name="views_label">مشاهدة</string>
+    <string name="volume_hint">يمكنك استخدام هذه الخيارات للتحكم في شدة الصوت بين الفيديو المسجل والأغنية المختارة (اختياري).</string>
+    <string name="volume_label">الصوت</string>
+    <string name="website_label">الموقع الالكتروني</string>
+    <string name="yes_button">نعم</string>
+    <string name="youtube_label">يوتيوب</string>
+    <string name="balance_description">
+       يمكنك استخدام رصيد المحفظة لإرسال الهدايا على الفور إلى مستخدمين آخرين داخل التطبيق.
+    </string>
+    <string name="business_switch">طلب حساب تجاري؟</string>
+    <string name="buy_button">شراء</string>
+    <string name="confirmation_redeem_gift">
+هل تريد حقًا استرداد رصيد الهدية المحدد؟
+        قد يتم خصم رسوم المنصة من المبلغ النهائي.
+    </string>
+    <string name="count_credits" formatted="false">%d credits</string>
+    <string name="cta_label_spinner">Call to action</string>
+    <string name="cta_link_hint">لينك الموقع</string>
+    <string name="duet_switch">السماح للناس بتسجيل دويتو؟</string>
+    <string name="empty_gifts">لم يتم استلام هدايا لعرضها.</string>
+    <string name="empty_redemptions">لم يتم العثور على عمليات الاسترداد للعرض.</string>
+    <string name="error_iab_connection">فشل الاتصال بخدمة فوترة متجر Play.</string>
+    <string name="error_unknown">كان هناك خطأ غير متوقع.</string>
+    <string name="gift_sent_message">تم إرسال الهدايا بنجاح.</string>
+    <string name="gifts_label">الهدايا</string>
+    <string name="invite_label"> دعوة  &amp;  اكسب </string>
+    <string name="live_stream_close_confirmation">هل تريد إنهاء البث المباشر؟</string>
+    <string name="live_stream_go_live">Go live</string>
+    <string name="live_stream_empty">لا يوجد بث مباشر حالياً</string>
+    <string name="live_stream_ended_message">أنهى المضيف البث المباشر.</string>
+    <string name="live_stream_live">مباشر</string>
+    <string name="live_stream_privacy_title">البث المباشر</string>
+    <string name="live_stream_privacy_message">هل تريد البث للجميع أم لمتابعيك فقط؟</string>
+    <string name="live_stream_privacy_positive">الجميع</string>
+    <string name="live_stream_privacy_negative">متابعون</string>
+    <string name="live_stream_privacy_neutral">الغاء</string>
+    <string name="live_stream_user_joined">انضم المستخدم.</string>
+    <string name="live_stream_user_left">غادر المستخدم.</string>
+    <string name="live_stream_waiting_placeholder">انتظر لبدء مشاركة الفيديو ...</string>
+    <string name="message_empty_cart">الرجاء إضافة الهدايا لإرسالها أولاً.</string>
+    <string name="message_redemption_submitted">
+تم استلام طلب الاسترداد الخاص بك بنجاح.
+سيتم مراجعتها قريبا والموافقة عليها وفقا لذلك.
+    </string>
+    <string name="payment_label">دفع</string>
+    <string name="permission_rationale_live_stream">للتسجيل والبث المباشر ، يلزم الحصول على إذن الكاميرا والصوت.</string>
+    <string name="recharge_label">إعادة شحن</string>
+    <string name="recording_option_duet">دويتو</string>
+    <string name="redeem_button">استرداد</string>
+    <string name="redemptions_label">عمليات الاسترداد</string>
+    <string name="redemption_address_id" formatted="false">%s ID</string>
+    <string name="redemption_address_label">عنوان الاسترداد</string>
+    <string name="redemption_mode_label">وضع الاسترداد</string>
+    <string name="redemption_mode_none">لا شيء</string>
+    <string name="redemption_status_pending">قيد الانتظار</string>
+    <string name="redemption_status_approved">مقبول</string>
+    <string name="redemption_status_rejected">مرفوض</string>
+    <string name="send_label">إرسل</string>
+    <string name="send_gift_label">أرسل هدية</string>
+    <string name="share_invite_chooser">إرسال دعوة باستخدام...</string>
+    <string name="total_label">الإجمالي</string>
+
+</resources>

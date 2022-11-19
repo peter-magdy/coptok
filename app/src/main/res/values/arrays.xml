@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cta_label_codes">
+        <item />
+        <item>contact_us</item>
+        <item>get_quote</item>
+        <item>learn_more</item>
+        <item>shop_now</item>
+    </string-array>
+    <array name="cta_label_colors">
+        <item>#000000</item>
+        <item>#00b2a9</item>
+        <item>#00a4e4</item>
+        <item>#ff4f81</item>
+        <item>#6a67ce</item>
+    </array>
+    <string-array name="cta_label_names">
+        <item>None</item>
+        <item>Contact us</item>
+        <item>Get quote</item>
+        <item>Learn more</item>
+        <item>Shop now</item>
+    </string-array>
+    <string-array name="language_codes">
+        <item>hin</item>
+        <item>eng</item>
+    </string-array>
+    <array name="language_colors">
+        <item>#0abf53</item>
+        <item>#00a4e4</item>
+
+    </array>
+    <string-array name="language_names">
+        <item>العربية</item>
+        <item>English</item>
+
+    </string-array>
+    <string-array name="locale_codes">
+        <item>en</item>
+        <item>ar</item>
+    </string-array>
+    <string-array name="locale_names">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+    <string-array name="photo_options">
+        <item>Choose new photo</item>
+        <item>Remove current photo</item>
+    </string-array>
+    <string-array name="redemption_mode_codes">
+        <item>paypal</item>
+        <item>upi</item>
+    </string-array>
+    <string-array name="redemption_mode_names">
+        <item>PayPal</item>
+        <item>UPI</item>
+    </string-array>
+    <string-array name="reason_codes">
+        <item>drugs</item>
+        <item>fake_news</item>
+        <item>fake_profile</item>
+        <item>harassment</item>
+        <item>hateful</item>
+        <item>ip_infringement</item>
+        <item>political_propaganda</item>
+        <item>pornography</item>
+        <item>spam</item>
+        <item>violence</item>
+        <item>weapons</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="reason_names">
+        <item>Drugs</item>
+        <item>Fake news</item>
+        <item>Fake profile</item>
+        <item>Harassment</item>
+        <item>Hateful</item>
+        <item>IP infringement</item>
+        <item>Political propaganda</item>
+        <item>Pornography</item>
+        <item>Spam</item>
+        <item>Violence</item>
+        <item>Weapons</item>
+        <item>Other</item>
+    </string-array>
+</resources>
